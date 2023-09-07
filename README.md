@@ -1,6 +1,6 @@
 # Getting Started with Workspaces Widgets in React
 
-This widget is a bolier-plate for Avaya Workspaces Widgets that can be used to build your widget from.
+This widget is a boiler-plate for Avaya Workspaces Widgets that can be used to build your widget from.
 It also showcases functionalities & capabilities from the Workspaces Widget Framework SDK, as well as Avaya Experience Platform APIs.
 
     This widget is meant to be used only within Avaya Experience Platform.
@@ -15,14 +15,14 @@ It also showcases functionalities & capabilities from the Workspaces Widget Fram
 
 ##### Methods
 - ```getConfiguration().user``` - to get the full logged in Agent configuration.
-- ```getTeamData()``` - to get the Agent's team data (collegues & supervisors).
+- ```getTeamData()``` - to get the Agent's team data (colleagues & supervisors).
 - ```getInteractionData()``` - to get the current interaction's details.
 
 For more events & methods, visit the [documentation](https://documentation.workspaces.avayacloud.com/widget-framework/docs/api-reference/introduction).
 ### TODO: AXP APIs
 
-## Techonology
-The widget is build using React, Redux and webpack.
+## Technology
+The widget is build using React, Redux and Web-pack.
 
 ### Folder Structure
 
@@ -57,7 +57,7 @@ Make sure to update `store.js` with you new component reducer.
 ## Build & Develop
 After you make the changes as required by the widget you want to build, you can build and deploy your widget following the below steps
 
-### Prerequistes
+### Prerequisites
 - `Node.js` version 18+ is required.
 - `Yarn`
 - `Docker` & `Docker Compose` (optional).
@@ -66,7 +66,7 @@ After you make the changes as required by the widget you want to build, you can 
 
 ---
 ### If you chose docker
-1. Update the docker-compose-dev.yml file with the location of the SSL certificates.
+1. Update the `docker-compose-dev.yml` file with the location of the SSL certificates.
 2. ```sh
     yarn install
     npm run build
@@ -79,13 +79,13 @@ After you make the changes as required by the widget you want to build, you can 
     yarn install
     npm run build
     ```
-2. Manually serve the contents of the `build/` (mainly `bundle.js`) folder using your favorite web-server (NginX, TomCat, IIS, etc..)
+2. Manually serve the contents of the `build/` (mainly `bundle.js`) folder using your favorite web-server (NGINX, TomCat, IIS, etc..)
 3. Done
 ---
 
-If you've done everythign correcntly, It should look something like this.
+If you've done everything correctly, It should look something like this.
 
-![Widget Screenie](./public/screenshot.png)
+![Widget Screenshot](./public/screenshot.png)
 
 ---
 
