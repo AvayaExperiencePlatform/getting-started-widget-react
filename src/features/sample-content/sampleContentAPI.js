@@ -5,7 +5,7 @@ const widgetAPI = window.WS.widgetAPI();
 export function getAgentConfiguration({ agentId }) {
   const config = {
     method: "get",
-    url: `${process.env.AXP_PROXY_BASE_URL}/api/admin/v1beta/accounts/${process.env.AXP_ACCOUNT_ID}/users/${agentId}`,
+    url: `${process.env.AXP_PROXY_BASE_URL}/api/admin/v1/accounts/${process.env.AXP_ACCOUNT_ID}/users/${agentId}`,
   };
   return axios(config).then((response) => {
     return response.data;
