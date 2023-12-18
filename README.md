@@ -5,6 +5,14 @@ It also showcases functionalities & capabilities from the Workspaces Widget Fram
 
     This widget is meant to be used only within Avaya Experience Platform.
 
+---
+
+## :warning: **Disclaimer**
+
+> :bulb: this sample application is provided **for demonstration purposes only** and are not intended for production use. We assume no responsibility for any issues arising from its use.
+
+---
+
 ## Current Capabilities
 ### Workspaces Widget Framework SDK
 
