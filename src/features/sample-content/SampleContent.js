@@ -86,7 +86,7 @@ export function SampleContent(props) {
               variant="h4"
               sx={{ fontFamily: "noto-sans,sans-serif", marginBottom: "10px" }}
             >
-              {"Welcome the Workspaces Sample Widget!"}
+              {"Welcome to the Workspaces Sample Widget!"}
             </Typography>
             <Typography
               component="div"
@@ -115,9 +115,6 @@ export function SampleContent(props) {
   );
 }
 
-// Hello.propTypes = {
-//   firstname: PropTypes.string.isRequired
-// }
 
 SampleContent.propTypes = {
   interactionId: PropTypes.string
